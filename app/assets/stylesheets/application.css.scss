@@ -1,0 +1,197 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require_self
+*= require_tree .
+*/
+
+#banner
+{
+background: #980000;
+padding: 10px;
+border: 2px solid;
+border-color: black;
+font: small-caps 40px/40px Verdana, serif;
+font-weight: bold;
+color: #282;
+text-align: center;
+
+img
+{
+float: left;
+}
+
+}
+
+
+#notice
+{
+color: #ff0000 !important;
+border: 2px solid red;
+padding: 1em;
+margin-bottom: 2em;
+background-color: #f0f0f0;
+font: bold smaller sans-serif;
+}
+.ad_entry
+	{
+		overflow: auto;
+		margin-top: 1em;
+		border-bottom: 1px dotted #77d;
+		min-height: 100px;
+		
+		img
+		{
+			width: 155px;
+			margin-right: 5px;
+			margin-bottom: 5px;
+			border: solid;
+			
+		}
+		
+		h3
+		{
+			font-size: 120%;
+			font-family: sans-serif;
+			margin-left: 60px;
+			margin-top: 0;
+			margin-bottom: 2px;
+			color: #227
+		}
+		
+		p
+		{
+			
+			margin-top: 0.5em;
+			margin-bottom: 0.8em;
+
+		}
+}
+#columns
+{
+background: #c0c0c0;
+
+#main
+{
+margin-left: 17em;
+margin-right: 17em;
+padding: 1em;
+background: white;
+
+}
+
+#ads
+{
+float: right;
+padding: 2em;
+width: 13em;
+background: #c0c0c0;
+border-right: 2px solid;
+border-left: 2px solid;
+border-bottom: 2px solid;
+
+}
+
+#side
+{
+float: left;
+min-height:400px;
+padding: 1em 2em;
+width: 13em;
+background: #c0c0c0;
+border-right: 2px solid;
+border-left: 2px solid;
+border-bottom: 2px solid;
+
+
+form, div
+{
+display: inline;
+}
+
+input
+{
+font-size: small;
+}
+
+#cart
+{
+font-size: smaller;
+color: #44a;
+
+table
+{
+border-top: 1px dotted #595;
+border-bottom: 1px dotted #595;
+margin-bottom: 10px;
+}
+}
+ul
+{
+padding: 0;
+
+li
+{
+list-style: none;
+
+a
+{
+color: #bfb;
+font-size: small;
+}
+}
+}
+}
+}
+
+.depot_form 
+{
+fieldset 
+{
+background: #efe;
+
+legend 
+{
+color: #dfd;
+background: #141;
+font-family: sans-serif;
+padding: 0.2em 1em;
+}
+}
+
+form 
+{
+label 
+{
+width: 5em;
+float: left;
+text-align: right;
+padding-top: 0.2em;
+margin-right: 0.1em;
+display: block;
+}
+
+select, textarea, input 
+{
+margin-left: 0.5em;
+}
+
+.submit 
+{
+margin-left: 4em;
+}
+
+br 
+{
+display: none
+}
+}
+}
+
